@@ -1,0 +1,271 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* .postimg img{width: 100%;} */
+.main{display: flex;
+background-color: black;
+color: white;
+justify-content: space-between;
+font-family: 'Oswald', sans-serif;
+max-width: 100%;}
+
+.header{ display: flex;
+    
+}
+
+.header div{ padding: 8px 16px;}
+
+.search{ padding: 8px 16px;}
+
+.header div:hover{ background: #ccc;
+color: black;
+cursor: pointer;}
+
+.search:hover{
+    background: #ccc;
+    color: black;
+    cursor: pointer;
+}
+
+.middle{padding: 48px 16px;
+width: 100%;}
+
+.janeblog{margin: 10px 0px;
+font-size: 48px;
+text-align: center;
+font-weight: bold;}
+
+.trungtam{ text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.trungtam span{background-color: black;
+color: white;}
+
+.imgg img{    max-width: 100%;
+    height: auto;
+}
+
+    .imgg button{padding: 12px 24px;
+    border: 0px;
+background: #ccc;}
+    .imgg button:hover{
+        background: #FFFFFF;
+    }
+
+    .imgg{position: relative;}
+
+    .banner{ position: absolute;
+    bottom: 30%;
+color: white;
+padding: 12px 24px;}
+
+.banner h2{ font-size: 36px;
+margin: 10px 0px;}
+
+.banner h1{ font-size: 64px;
+    margin: 10px 0px;}
+
+    @media screen and (max-width:600px) {
+        .header{display: none;}
+        .banner h1{display: none;}
+        .search{display: none;}
+        .postimg img{width: 100%;}
+    }
+    @media screen and (max-width:616px) {
+        .middle
+    }
+
+@media screen and (max-width:993px){
+    
+    .allLR .left{width: 100%;
+        
+    text-align: center;}
+
+    .allLR{flex-direction: column;
+    }
+
+    .allLR .right{width: 100%;
+    text-align: center;}
+}
+
+
+.right{background: #f1f1f1;}
+.myname{ margin: 16px;}
+
+    .allLR{ display: flex;
+        background: #f1f1f1;
+    padding: 16px;}
+
+   
+
+    .left{width: 70%;}
+    .right{width: 30%;}
+
+    .myname img{ width: 100%;}
+
+    .mynametext{ padding: 10px;
+    background-color: black;
+color: white;
+line-height: 1.5;}
+
+    .mynametext h2{margin-bottom: 15px ;}
+
+    .sidetitle{ background-color: black;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+       margin: 15px;
+    color: white;
+font-size: 20px;}
+
+.trendimg{ width: 30%;}
+.trendtext{width: 70%;}
+.trenditem{display: flex;padding: 10px;
+border: 1px solid #ddd;}
+
+.trendimg img{width: 100%;}
+
+.trendtext p {margin: 15px 0 0 15px;}
+
+.listalbum{margin: 16px;
+background-color: white;}
+
+.trenditem:hover{background: #ccc;
+cursor: pointer;}
+
+
+.boxdiv{
+    /* width: 90%; */
+height: 200px;
+text-align: center;
+background: #ccc;
+margin: 16px ;
+padding: 85px 16px;
+
+}
+
+
+
+.taglist{ display: flex;
+margin: 15px;
+background-color: white;
+flex-wrap: wrap;
+background: #ccc;
+}
+
+
+.taglistitem{font-size: 12px;
+padding: 0 8px;
+margin: 0 0 16px;
+
+}
+
+
+.insimg{display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: 16px;
+background-color: white;}
+  .listimg{ width: 45%;margin: 5px 0;
+}
+
+.iconfb{ display: flex;
+padding: 8px 16px;
+background-color: white;
+margin: 16px;}
+
+.iconfb i{font-size: 25px;
+margin: 2px;}
+
+.iconfb i:hover{opacity: 0.5;}
+
+
+.textsub { 
+    text-align: center;
+    padding: 0px 16px;
+}
+
+.textsub button{background-color: red;
+    border: none;
+    width: 90%;
+    padding: 8px 16px;
+    font-size: 15px;
+    color: white;
+    margin-top: 14px;
+    border: 0.5px solid gray;
+}
+
+.textsub button:hover{ background: #ccc;
+color: black;}
+
+.email input { width: 90%;
+padding: 8px;}
+
+.textS{ margin: 15px 0px;}
+
+
+
+.note h3{ margin: 10px 0px;
+font-size: 24px;}
+.post{text-align: center;}
+.note p{margin: 10px 0px;
+font-size: 18px;}
+
+.postimg img{ padding: 16px 0px;}
+
+.write{ text-align: justify;
+
+padding: 12px 24px;
+}
+
+.write2{ text-align: justify;
+    
+    padding: 12px 24px;
+    }
+
+    .divbut{ display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+}
+
+
+.like button{padding: 8px 16px;
+border: 0.5px solid gray;
+font-size: 15px;}
+.rep button{padding: 8px 16px;
+background-color: black;
+color: white;
+font-size: 15px;
+border: 0.5px solid black;}
+
+.rep button:hover{color: black;
+background: #ccc;}
+
+.like button:hover{ background-color: #ccc;}
+
+
+.theend{padding: 8px 16px;}
+
+.tothetop{padding: 32px;
+width: 100%;
+height: 200px;
+background-color: gray;}
+
+.tothetop p{margin: 15px 0px;}
+
+.tothetop div{margin:  0 0 16px;
+
+}
+
+.uptop button{padding: 12px 24px;
+background-color: black;
+color: white;
+border: 0.5px solid black;}
+
+.uptop button:hover{background: #ccc;
+color: black;}
+
+
